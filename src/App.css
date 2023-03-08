@@ -1,0 +1,244 @@
+.App {
+  text-align: center;
+  font-size: 16.5px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.doraemon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  background-color: black;
+}
+
+.face{
+  display: flex;
+  position: relative;
+  right:-20%;
+  top: -20%;
+  width: 45%;
+  height: 40%;
+  background-color: #51a1c4;
+  border-radius: 50% 50% 43% 43%;
+  border: 2px black solid;
+}
+.inner_face{
+  display: flex;
+  position: relative;
+  top: -16%;
+  right: 21%;
+  width: 37%;
+  height: 32%;
+  background-color: white;
+  border-radius: 50% 50% 43% 43%;
+  border: 2px black solid;
+
+}
+
+.eye_left{
+  display: flex;
+  position: relative;
+  top: -32%;
+  right: 40%;
+  background-color: white;
+  height: 10%;
+  width: 8%;
+  border: 2px black solid;
+  border-radius: 50% 50% 43% 43%;
+}
+
+.eye_right{
+  display: flex;
+  position: relative;
+  top: -32%;
+  right: 57%;
+  background-color: white;
+  height: 10%;
+  width: 8%;
+  border: 2px black solid;
+  border-radius: 50% 50% 43% 43%;
+}
+
+.inner_eye_left{
+  display: flex;
+  position: relative;
+  top: 35%;
+  right: 57%;
+  background-color: black;
+  height: 35%;
+  width: 25%;
+  border: 2px black solid;
+  border-radius: 50% 50% 43% 43%;
+  z-index: 1;
+}
+
+.inner_eye_right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 35%;
+  right: -120%;
+  background-color: black;
+  height: 35%;
+  width: 25%;
+  border: 2px black solid;
+  border-radius: 50% 50% 43% 43%;
+  z-index: 1;
+}
+.nose{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 11%;
+  left: 43%;
+  background-color: red;
+  width:15%;
+  height: 15%;
+  border: 2px black solid;
+  border-radius: 50% 50% 43% 43%;
+  z-index: 2;
+}
+.strght_line{
+    display: flex;
+    position: relative;
+    top: 27%;
+    right: -36%;
+    justify-content: center;
+    align-items: center;
+    width: 1.3%;
+    height: 20%;
+    background-color: black;
+}
+.hor_line{
+    display: flex;
+    position: relative;
+    top: 46%;
+    left: 15%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 1%;
+    background-color: black;
+}
+.mouth{
+  display: flex;
+  position: relative;
+  top: 46%;
+  right: 25%;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 30%;
+  background-color: red;
+  z-index: 1;
+  border: 3px black solid;
+  border-radius:0% 0% 100% 100%;
+}
+/* .left_curve{
+  display: flex;
+  position: relative;
+  top: 39%;
+  right: 45%;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 10%;
+  background-color: red;
+  border-radius: 0% 0% 0% 110%;
+} */
+
+@media only screen and (min-width:320px) and (max-width:479px){
+  .doraemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    background-color: black;
+  }
+}
+
+
+@media only screen and (min-width:480px) and (max-width:759px){
+  .doraemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: black;
+  }
+}
+
+ @media only screen and (min-width:760px) and (max-width:999px){
+  .doraemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    background-color: black;
+  }
+}
+
+
+@media only screen and (min-width:1000px) and (max-width:1199px){
+  .doraemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    background-color: black;
+  }
+}
+
+
+@media only screen and (min-width:1200px) and (max-width:1399px){
+  .doraemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    background-color: black;
+  }
+}
+
+
+@media only screen and (min-width:1400px) and (max-width:1599px){
+  .doraemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 80%;
+    background-color: black;
+  }
+}
+
+/*
+@media only screen and (max-width:1600px){
+  .doraemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 80%;
+    background-color: black;
+  }
+} */
